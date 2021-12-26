@@ -1,0 +1,69 @@
+
+.flex-container > div{
+flex-direction: 
+   margin-left: 50px;
+}
+
+.shym{
+   display: flex;
+   justify-content: space-around;
+   font-size: 18px;
+}
+ h1{
+   background-color:rgb(122, 189, 161);
+   margin-bottom: 30px;
+   text-align: center;
+}
+.shym p{
+   width: 800px;
+   font-size: 18px;
+}
+.climate h2{
+   margin-top: 30px;
+   text-align: center;
+}
+.text h2{
+   text-align: center;
+}
+.center {
+   margin: auto;
+   width: 60%;
+   border: 3px solid rgba(0, 255, 0, 30%);
+   padding: 10px;
+ }
+.center p{
+   font-size: 20px;
+}
+   
+@media(max-width:768px){
+   .shym{
+      display: flex;
+      justify-content: space-around;
+    
+   }
+    h1{
+      background-color:rgb(122, 189, 161);
+      margin-bottom: 30px;
+      text-align: center;
+   }
+   .shym p{
+      width: 800px;
+      font-size: 24px;
+   }
+   .climate h2{
+      margin-top: 30px;
+      text-align: center;
+   }
+   .text h2{
+      text-align: center;
+   }
+   .center {
+      margin: auto;
+      width: 100%;
+      border: 10px solid rgba(0, 255, 0, 30%);
+      padding: 20px;
+    }
+.center p {
+font-size: 24px;
+}
+}
